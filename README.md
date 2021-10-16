@@ -17,3 +17,5 @@ Tech stacks:
 - Front-end: [Chế Nguyễn Minh Tùng,Nguyễn Văn Quốc Việt ]
 - Back-end: [Huỳnh Minh Trí,Nguyễn Văn Quốc Việt]
 - Database: [Nguyễn Đức Toàn,Nguyễn Văn Quốc Việt]
+
+GOOD LUCK MY TEAM
