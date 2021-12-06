@@ -84,7 +84,7 @@
                                     <li><a href=" Weddinghall.php">Wedding hall</a></li>
                                     <li><a href="Menu.php">Menu</a></li>
                                     <li><a href="Gallery.php">Gallery</a></li>
-                                    <li class="active"><a href="category-foods" class="btn btn-default">book now</a>
+                                    <li class="active"><a href="categories.php" class="btn btn-default">book now</a>
                                     </li>
                                 </ul>
                                 <div class="visible-xs">

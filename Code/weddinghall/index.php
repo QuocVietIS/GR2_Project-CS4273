@@ -83,7 +83,7 @@
                                     <li><a href=" Weddinghall.php">Wedding hall</a></li>
                                     <li><a href="Menu.php">Menu</a></li>
                                     <li><a href="Gallery.php">Gallery</a></li>
-                                    <li><a href="category-foods" class="btn btn-default">book now</a></li>
+                                    <li><a href="categories.php" class="btn btn-default">book now</a></li>
                                 </ul>
                                 <div class="visible-xs">
                                     <hr class="hide-line">
@@ -172,7 +172,7 @@
                   &nbsp;
                </p>
                <h3 style="text-align:center">
-                  <a href="#">Book Now</a>&nbsp;&nbsp;<span style="color:#000000">0123456789</span>
+                  <a href="categories.php">Book Now</a>&nbsp;&nbsp;<span style="color:#000000">0123456789</span>
                </h3>
             </div>
          </div>

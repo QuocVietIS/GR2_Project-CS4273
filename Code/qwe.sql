@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th12 05, 2021 lúc 04:00 PM
+-- Thời gian đã tạo: Th12 06, 2021 lúc 05:52 AM
 -- Phiên bản máy phục vụ: 10.4.22-MariaDB
 -- Phiên bản PHP: 7.3.33
 
@@ -111,9 +111,9 @@ INSERT INTO `tbl_food` (`id`, `title`, `description`, `price`, `image_name`, `ca
 CREATE TABLE `tbl_order` (
   `id` int(10) UNSIGNED NOT NULL,
   `food` varchar(150) NOT NULL,
-  `price` decimal(10,2) NOT NULL,
+  `price` int(100) NOT NULL,
   `qty` int(11) NOT NULL,
-  `total` decimal(10,2) NOT NULL,
+  `total` varchar(100) NOT NULL,
   `order_date` datetime NOT NULL,
   `date_wedding` varchar(11) NOT NULL,
   `status` varchar(50) NOT NULL,
@@ -128,10 +128,10 @@ CREATE TABLE `tbl_order` (
 --
 
 INSERT INTO `tbl_order` (`id`, `food`, `price`, `qty`, `total`, `order_date`, `date_wedding`, `status`, `customer_name`, `customer_contact`, `customer_email`, `customer_address`) VALUES
-(1, 'Sadeko Momo', '6.00', 3, '18.00', '2020-11-30 03:49:48', '0000-00-00 ', 'Cancelled', 'Bradley Farrell', '+1 (576) 504-4657', 'zuhafiq@mailinator.com', 'Duis aliqua Qui lor'),
-(2, 'Best Burger', '4.00', 4, '16.00', '2020-11-30 03:52:43', '0000-00-00 ', 'Delivered', 'Kelly Dillard', '+1 (908) 914-3106', 'fexekihor@mailinator.com', 'Incidunt ipsum ad d'),
-(3, 'Mixed Pizza', '10.00', 2, '20.00', '2020-11-30 04:07:17', '0000-00-00 ', 'Delivered', 'Jana Bush', '+1 (562) 101-2028', 'tydujy@mailinator.com', 'Minima iure ducimus'),
-(6, 'Bàn 3.000.000đ', '3000000.00', 1, '3000000.00', '2021-12-05 02:48:29', '205765', 'Ordered', 'e', '231', '19522490@gm.uit.edu.vn', 'adsa');
+(1, 'Sadeko Momo', 6, 3, '18.00', '2020-11-30 03:49:48', '0000-00-00 ', 'Cancelled', 'Bradley Farrell', '+1 (576) 504-4657', 'zuhafiq@mailinator.com', 'Duis aliqua Qui lor'),
+(2, 'Best Burger', 4, 4, '16.00', '2020-11-30 03:52:43', '0000-00-00 ', 'Delivered', 'Kelly Dillard', '+1 (908) 914-3106', 'fexekihor@mailinator.com', 'Incidunt ipsum ad d'),
+(3, 'Mixed Pizza', 10, 1000, '10000', '2020-11-30 04:07:17', '0000-00-00 ', 'Delivered', 'Jana Bush', '+1 (562) 101-2028', 'tydujy@mailinator.com', 'Minima iure ducimus'),
+(6, 'Bàn 3.000.000đ', 3000000, 1, '3000000.00', '2021-12-05 02:48:29', '205765', 'Ordered', 'e', '231', '19522490@gm.uit.edu.vn', 'adsa');
 
 --
 -- Chỉ mục cho các bảng đã đổ
