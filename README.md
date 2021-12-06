@@ -13,7 +13,8 @@ Task management table: [here](https://trello.com/b/FGfBFxFm/group2) [Replace by 
 Tech stacks:
 
 - Front-end: [Chế Nguyễn Minh Tùng, Nguyễn Văn Quốc Việt]
-- Back-end: [Nguyễn Văn Quốc Việt,Chế Nguyễn Minh Tùng]
-- Database: [Nguyễn Đức Toàn,Huỳnh Minh Trí]
+- Back-end: [Nguyễn Văn Quốc Việt,Chế Nguyễn Minh Tùng, Huỳnh Minh Trí]
+- Database: [Nguyễn Đức Toàn,Nguyễn Văn Quốc Việt, Chế Nguyễn Minh Tùng]
 - Báo cáo : [Nguyễn Đức Toàn,Nguyễn Văn Quốc Việt]
+- 
 GOOD LUCK MY TEAM
